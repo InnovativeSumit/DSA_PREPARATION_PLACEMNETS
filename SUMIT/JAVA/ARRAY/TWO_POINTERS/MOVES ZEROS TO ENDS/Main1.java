@@ -1,5 +1,4 @@
-
-// THREE SUM PROBLEMS
+// MOVES ZEROS TO THE END
 //TC ==> O(N)
 //SC ==> O(1)
 import java.util.*;

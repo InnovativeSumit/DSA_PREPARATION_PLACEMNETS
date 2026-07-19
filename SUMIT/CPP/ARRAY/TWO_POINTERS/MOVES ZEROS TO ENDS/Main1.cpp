@@ -1,12 +1,11 @@
 // MOVES ZEROS TO THE END
-// TC ==> O(N)
+//TC ==> O(N)
 //SC ==> O(1)
+#include<bits/stdc++.h>
+using namespace std;
 
-import java.util.*;
-public class Main2 {
-
-    static void MovesZerosToEnd(int[] array) {
-        int n = array.length;
+     void MovesZerosToEnd(vector<int> &array) {
+        int n = array.size();
         int count = 0;
         for (int i = 0; i < n; i++) {
             if (array[i] != 0) {
@@ -18,11 +17,10 @@ public class Main2 {
         }
     }
 
-    public static void main(String[] args) {
-        int[] array = { 0, 1, 0, 1, 0, 1, 0 };
+    int main() {
+        vector<int>array = { 0, 1, 0, 1, 0, 1, 0 };
         MovesZerosToEnd(array);
         for (int x : array) {
-            System.out.print(x + " ");
+            cout<< x<<" ";
         }
     }
-}
