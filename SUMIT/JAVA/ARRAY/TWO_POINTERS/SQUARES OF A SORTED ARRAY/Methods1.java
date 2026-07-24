@@ -1,8 +1,8 @@
 // SQAURES OF A SORTED Arrays
-// TC ==> O(LOGN)
+// TC ==> O(NLOGN)
 //S C ==> O(1)
 import java.util.*;
-public class Main {
+public class Methods1 {
     static void sortedSquares(int[] nums) {
         int n = nums.length;
         for(int i = 0 ; i< n ; i++){
